@@ -54,7 +54,7 @@ export default function TestimonialsPreview() {
                 </div>
                 <blockquote>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    "{testimonial.quote}"
+                    &ldquo;{testimonial.quote}&rdquo;
                   </p>
                 </blockquote>
               </div>

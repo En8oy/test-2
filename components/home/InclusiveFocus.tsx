@@ -37,7 +37,7 @@ export default function InclusiveFocus() {
             Training for Everyone
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Whether you're an elite athlete or just starting your fitness journey,
+            Whether you&apos;re an elite athlete or just starting your fitness journey,
             we have the expertise to help you succeed
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function InclusiveFocus() {
 
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            No matter where you are in your fitness journey, we're here to support,
+            No matter where you are in your fitness journey, we&apos;re here to support,
             guide, and empower you every step of the way.
           </p>
         </div>
