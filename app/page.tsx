@@ -11,5 +11,6 @@ export default function Home() {
       <InclusiveFocus />
       <TestimonialsPreview />
     </main>
+    
   );
 }

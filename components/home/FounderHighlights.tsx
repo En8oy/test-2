@@ -104,7 +104,6 @@ export default function FounderHighlights() {
           ))}
         </div>
 
-        {/* Modal/Popup */}
         {selectedHighlight && (
           <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto">
@@ -127,8 +126,7 @@ export default function FounderHighlights() {
                     </svg>
                   </button>
                 </div>
-
-                {/* Video Placeholder */}
+                
                 <div className="relative aspect-video bg-gray-100 mb-6 rounded-lg overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <svg className="w-20 h-20 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -137,8 +135,6 @@ export default function FounderHighlights() {
                     </svg>
                   </div>
                 </div>
-
-                {/* Sample Week */}
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Sample Training Week</h3>
                   <div className="bg-gray-50 rounded-lg p-4">

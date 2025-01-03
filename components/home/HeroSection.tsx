@@ -4,7 +4,6 @@ import Image from 'next/image';
 export default function HeroSection() {
   return (
     <div className="relative min-h-[90vh] flex flex-col lg:flex-row items-center overflow-hidden py-20 lg:py-0">
-      {/* Background image with blur */}
       <div className="absolute inset-0">
         <Image
           src="https://storage.googleapis.com/msgsndr/4I1M5n89grUjOuxzR5Dx/media/676949ff0bcca01fca805822.jpeg"
@@ -20,11 +19,9 @@ export default function HeroSection() {
       <div className="relative w-full h-[300px] mb-8 lg:hidden">
         <div className="relative w-full h-full px-4">
           <div className="relative w-full h-full group">
-            {/* Decorative elements */}
             <div className="absolute -inset-3 bg-gradient-to-tr from-blue-600/50 to-white/50 rounded-[20px] blur-xl opacity-90"></div>
             <div className="absolute -inset-1 bg-gradient-to-tr from-blue-600/40 to-white/40 rounded-[18px] backdrop-blur-sm opacity-90"></div>
             
-            {/* Main image container */}
             <div className="relative h-full w-full rounded-[15px] overflow-hidden border-2 border-white/50 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-10"></div>
               <Image
@@ -41,15 +38,13 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Owner Image with creative frame - Desktop */}
       <div className="absolute right-0 top-0 bottom-0 w-[45%] z-20 hidden lg:block">
         <div className="relative w-full h-full flex items-center justify-end">
           <div className="relative w-[80%] h-[85%] group mr-8">
-            {/* Decorative elements */}
+
             <div className="absolute -inset-6 bg-gradient-to-tr from-blue-600/50 to-white/50 rounded-[40px] blur-2xl group-hover:blur-3xl group-hover:from-blue-500/60 group-hover:to-white/60 transition-all duration-300 opacity-90"></div>
             <div className="absolute -inset-2 bg-gradient-to-tr from-blue-600/40 to-white/40 rounded-[35px] backdrop-blur-sm opacity-90"></div>
             
-            {/* Main image container */}
             <div className="relative h-full w-full rounded-[30px] overflow-hidden border-2 border-white/50 shadow-2xl transform group-hover:scale-[1.02] transition-all duration-300 bg-black/20">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-10"></div>
               <Image
@@ -66,8 +61,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Content */}
-      {/* Content */}
+
       <div className="relative z-30 w-full lg:w-[55%] px-4 sm:px-6 lg:px-8 text-white">
         <div className="backdrop-blur-xl bg-black/40 p-6 sm:p-8 rounded-3xl border border-white/30 shadow-2xl animate-fade-in">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-blue-300">

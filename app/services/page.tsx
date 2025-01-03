@@ -4,7 +4,6 @@ import Image from 'next/image'
 const ServicesPage = () => {
   return (
     <main className="flex-1">
-      {/* Hero Section */}
       <section className="relative bg-gray-50 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
@@ -18,7 +17,6 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Main Services Section */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -57,7 +55,6 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Service Types Grid */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 md:mb-12 text-center">Specialized Programs</h2>
@@ -99,7 +96,6 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Additional Features Section */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -140,7 +136,6 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="bg-gray-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Ready to Start Your Fitness Journey?</h2>

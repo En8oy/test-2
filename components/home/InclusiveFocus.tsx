@@ -62,7 +62,7 @@ export default function InclusiveFocus() {
             </div>
           ))}
         </div>
-
+        
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             No matter where you are in your fitness journey, we&apos;re here to support,

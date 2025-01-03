@@ -18,11 +18,9 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Contact Grid Section */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-            {/* Contact Form */}
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
               <form className="space-y-6">
@@ -87,9 +85,7 @@ const ContactPage = () => {
               </form>
             </div>
 
-            {/* Contact Information */}
             <div className="space-y-8">
-              {/* Location */}
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Location</h3>
                 <div className="aspect-w-16 aspect-h-9 mb-4">
@@ -107,7 +103,6 @@ const ContactPage = () => {
                 </p>
               </div>
 
-              {/* Business Hours */}
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Business Hours</h3>
                 <div className="space-y-2 text-gray-600">
@@ -126,7 +121,6 @@ const ContactPage = () => {
                 </div>
               </div>
 
-              {/* Additional Contact Methods */}
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Get in Touch</h3>
                 <div className="space-y-4">

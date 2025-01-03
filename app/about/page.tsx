@@ -20,7 +20,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Mission Section */}
+
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -49,7 +49,6 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Values Section */}
       <section className="bg-gray-50 py-12 md:py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 md:mb-12 text-center">Our Core Values</h2>
@@ -76,7 +75,6 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Team Section */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 md:mb-12 text-center">Our Team</h2>
